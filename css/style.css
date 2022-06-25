@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	background-color: #e7e8ec!important;
+	/*background-color: #3e3e3e!important;*/
+
+}
+
+/**/
+.main-quick{
+	width: 100%;
+	background-color: #1f1f1f;
+
+}
+.quick-links{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-right: 7%;
+	list-style: none;
+	/*list-style: none;
+	width: 100%;
+	    position: absolute;
+	    left: 333px;*/
+	}
+
+	.quick-links li{
+
+
+		margin-left: 10px ;
+
+
+
+	}
+	.quick-links li a{
+
+		text-decoration: none;
+		color: #fca615;
+		font-size: 12px;
+		transition: 0.2s ease;
+	}
+	.quick-links a:hover{
+		color: #ffc871;
+		text-decoration: underline;
+
+	}
+
+	/**/
+	.narbar{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		position: relative;
+		width: 100%;
+		height: 75px;
+		overflow: hidden;
+		padding-left: 80px;
+		background-color: #fff;
+	}
+	.navbar-brand{
+		width: 15%;
+		margin-top: 10px;
+		height: 75px;
+	}
+
+	.search-box{
+		width: 55%;
+		height: 75px;
+	}
+	.download-pic{
+		margin-top: 5px;
+	}
+	.form-control{
+		font-size: 17px;
+		color: #fca615!important;
+		font-weight: 500;
+		letter-spacing: 1px;
+		float: left;
+		width: 92%;
+		height: 51px;
+		padding: 20px;
+		background-color: #1f1f1f!important;
+		border:none!important;
+		outline: none!important;
+		border-radius: 0px!important;
+	}
+	.form-control::placeholder{
+		color: #fca615!important;
+		font-weight: 400;
+	}
+	.btn{
+		width: 8%;
+		height: 51px;
+		background: #fca615!important;
+		color: #1f1f1f!important;
+		font-size: 17px;
+		cursor: pointer;
+		border:none!important;
+		border-radius: 0px!important;
+	}
+	.cart{
+		width: 6%;
+		height: 75px;
+		padding-left: 20px;
+		padding-top: 3px;
+	}
+	.cart i{
+		font-size: 30px;
+		color: #fca615;
+	}
+	.banpic{
+		width: 18%;
+		height: 75px;
+		color: #fca615;
+	}
+
+
+	/**************BANNER SLIDER CSS**********************/
+	.customer-logos .slide{
+		max-height: 500px;
+		width: 100%; 
+	}
+	.customer-logos .slide img{
+		height: 100%; 
+		width: 100%; 
+		display: block;
+		object-fit: cover;
+
+	}
+	/**/
+
+	.slider {
+		width: 40rem;
+	}
+
+	.slide {
+
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+
+	}
+
+	.slick-dots {
+		display: flex;
+		justify-content: center;
+		margin: 0;
+		padding: 1rem 0;
+
+		list-style-type: none;
+
+		li {
+			margin: 0 0.25rem;
+		}
+
+		button {
+			display: block;
+			width: 1rem;
+			height: 1rem;
+			padding: 0;
+			
+			border: none;
+			border-radius: 100%;
+			background-color: orange;
+			
+			text-indent: -9999px;
+		}
+
+		li.slick-active button {
+			background-color: red;
+		}
+	}
+/*-------------------*/
+	.box{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+		height: 40px;
+		background-color: black;
+		margin-left: auto;
+		border-radius: 50px;
+		position: relative;
+		background-color: #fff;
+		cursor: pointer;
+
+	}
+	.box:hover{
+		/*  box-shadow: 0 0 11px rgba(33,33,33,.4); */
+		box-shadow: 0 10px 10px rgba(252,166,21,.3); 
+	}
+}
+
+.box:hover  .mart:hover a{
+	color: orange;
+}
+.box:hover , .fash:hover a{
+	color: red;
+}
+.box:hover , .bueati:hover a{
+	color: brown;
+}
+.mart , .fash , .bueati{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.mart img , .fash img , .bueati img{
+	width: 33px;
+	height: 33px;
+}
+
+.mart a , .fash a , .bueati a{
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	font-weight: 500;
+	padding-left: 10px;
+}
+
+.mart i , .fash i , .bueati i{
+	font-size: 20px;
+	padding-left: 10px;
+	position: absolute;
+	left: 90%;
+	display: none;
+
+}
+.mart:hover i{
+	display: block;
+	color: orange;
+
+}
+.fash:hover i{
+	display: block;
+	color: red;
+}
+
+.bueati:hover i{
+	display: block;
+	color: brown;
+
+}
+/*=========FALE SALE SECTION==============*/
+.flash-sale-main{
+	background-color: #fff;
+	min-height: 372px;
+}
+.flash-details{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+
+
+}
+.time-box-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.flash-details .tim-box{
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: #fca615; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.btn-shop-more{
+	border:1px solid #fca615;
+	padding: 7px 7px;
+	color: #fca615;
+	cursor: pointer;
+
+}
+.btn-shop-more:nth-child(n-1){
+	position: absolute;
+	right: 7px;
+}
+
+/*new css======================*/
+.flash_sale_main
+{
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(188px,1fr));
+}
+
+
+.flash_sale_main .flash_sale_card 
+{
+	width: 188px;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+.flash_sale_main .flash_sale_card .flash-imgBx
+{
+	position: relative;
+		width: 100%;
+		height: 188px;
+		overflow: hidden;
+}
+.flash_sale_main .flash_sale_card .flash-imgBx img
+{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+
+}
+
+.flash_sale_main .flash_sale_card .flash_content
+{
+	padding: 10px;
+}
+
+.flash_sale_main .flash_sale_card .flash_content .flash-product_name h3
+{
+		font-size: 14px;
+		font-weight: 400;
+		color: #333;
+		margin-top: 5px 0;
+}
+
+.flash_sale_main .flash_sale_card .flash_content .flash_product_price h4
+{
+	font-size: 14px;
+    color: #f85606;
+    letter-spacing: -.56px;
+    line-height: 22px;
+}
+.flash_sale_main .flash_sale_card .flash_content .flash_product_price del
+{
+	font-size: 14px;
+
+}
+.flash_sale_main .flash_sale_card .flash_content .flash_product_price span{
+	font-size: 14px;
+	color: #000;
+	font-weight: 500;
+}
+.flash_sale_main .flash_sale_card:hover
+{
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+} 
+/*================APNA MALL SECTION=========================*/
+.apna_mall_main
+{
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(188px,1fr));
+
+}
+
+.apna_mall_main .apna_mall_card
+{
+	width: 100%;
+	margin-bottom: 10px;
+	background-color: #fff;
+
+}
+
+.apna_mall_main .apna_mall_card .apna_mall_imgBx
+{
+		position: relative;
+		width: 188px;
+		height: 188px;
+		overflow: hidden;
+}
+
+.apna_mall_main .apna_mall_card .apna_mall_imgBx img
+{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+
+}
+
+.brand-overly
+{
+	width: 188px;
+    height: 36px;
+    top: 152px;
+   /* left: 0;
+    position: absolute;*/
+    opacity: .25;
+    background: rgba(0,0,0,.04);
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.5) 100%);
+}
+
+.brand_logo	
+{
+	box-shadow: 0 0 4px 0 rgb(0 0 0 / 25%);
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    padding: 4px;
+    position: relative;
+    margin: -26px auto 0;
+    overflow: hidden;
+}
+
+.apna_mall_main .apna_mall_card .apna_mall_content
+{	
+	background-color: #fff;
+	padding: 10px;
+
+}
+.apna_mall_main .apna_mall_card .apna_mall_content .apna_mall_productName{
+		display: grid;
+	place-items:center;
+
+}
+.apna_mall_main .apna_mall_card .apna_mall_content .apna_mall_productName p
+{
+		font-size: 12px;
+		color: #333;
+		margin-bottom: 0;	
+}
+
+.apna_mall_main .apna_mall_card .apna_mall_content .apna_mall_product_des span
+{
+ 		color: gray;
+		font-size: 10px;
+}
+
+.apna_mall_main .apna_mall_card:hover
+{
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+} 
+
+/*======================CATEGORIES SECTION CSS*/
+.cate-main-row-one{
+	display: flex;
+	flex-direction: row;
+}
+
+.grid-box-row1{
+	width: 12.5%;
+	height: 148.5px;
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	background-color: #fff;
+	transition: 0.2s ease;
+
+}
+.cate-main-row-two{
+	display: flex;
+	flex-direction: row;
+}
+
+.grid-box-row2{
+	width: 12.5%;
+	height: 148.5px;
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	background-color: #fff;
+	transition: 0.2s ease;
+}
+
+.grid-box-row2:hover , .grid-box-row1:hover{
+	transform: scale(1);
+	/*background-color: #ff800a;*/
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	z-index: 3;
+}
+
+.grid-box-img{
+	margin: 0 auto;
+	width: 80px;
+	height: 80px;
+
+}
+.grid-box-text{
+	text-align: center;
+	margin-top: 10px;
+
+}
+/*==================================JUST FOR FUN CSS*/
+.just_for_fun_main
+{
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(185px,1fr));
+	grid-gap:4px;
+
+}
+
+
+.just_for_fun_main .just_for_fun_card
+{
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: 10px;
+
+}
+.just_for_fun_main .just_for_fun_card:hover{
+	box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+.just_for_fun_main .just_for_fun_card .just_for_fun_imgBx
+{
+	position: relative;
+		width: 185px;
+		height: 189px;
+		overflow: hidden;
+}
+.just_for_fun_main .just_for_fun_card .just_for_fun_imgBx img
+{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+
+}
+
+.just_for_fun_main .just_for_fun_card .just_for_fun_content
+{
+	padding: 10px;
+}
+
+.just_for_fun_main .just_for_fun_card .just_for_fun_content .just_for_fun_productName h3
+{
+		font-size: 18px;
+		font-weight: 500;
+		color: #333;
+		margin-top: 5px 0;
+}
+
+.just_for_fun_main .just_for_fun_card .just_for_fun_content .just_for_fun_rs
+{
+	
+}
+.just_for_fun_main .just_for_fun_card .just_for_fun_content .just_for_fun_rs h4
+{
+		font-size: 20px;
+		color: #ff2020;
+		font-size: 500;
+}
+.just_for_fun_main .just_for_fun_card .just_for_fun_content .bi{
+	color: orange;
+}
+.just_for_fun_main .just_for_fun_card .just_for_fun_content .bi.gray{
+	color: gray;
+}
+.flash_sale_main .flash_sale_card:hover
+{
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+} 
+.load-more-btn button{
+	font-weight: 500;
+	margin: 0 auto;
+	display: block;
+	width: 387px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #f85606;
+	border: 1px solid #f85606;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+
+/***********************FOOTER CSS*/
+.footer-up{
+	padding: 24px 0;
+}
+.costumer-care ul{
+	padding: 0;
+	line-height: 14px;
+	list-style: none;
+}
+.costumer-care li a{
+	text-decoration: none;
+	color: #fca615;
+	font-size: 12px;
+
+}
+.costumer-care li:hover a{
+	text-decoration: underline;
+}
+
+.apnamallinfo ul{
+	padding: 0;
+	line-height: 14px;
+	list-style: none;
+}
+.apnamallinfo li a{
+	text-decoration: none;
+	color: #fca615;
+	font-size: 12px;
+
+}
+.apnamallinfo li:hover a{
+	text-decoration: underline;
+}
+.rtstars .bi{
+	color: #fca615;
+}
+.rtstars .gray{
+	color: gray;
+}
+/*Footer down section*/
+.footer-down{
+	padding: 24px 0;
+}
+.flags img , .soicalicons img , .veri img{
+	cursor: pointer;
+}
+/*headings class*/
+.hfive{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #333;
+	padding-bottom: 10px; 
+}
+.footer-down .paymentMe .methods  li{
+	list-style: none;
+	display: inline-block;
+
+}
+.footer-down .paymentMe .methods ul li a{
+	text-decoration: none;
+
+}
+
+/*========================*/
+.copy-right{
+	background-color: #fff; 
+	display: flex; 
+	justify-content: space-between;
+	font-size: 12px; 
+	font-family: Poppins; 
+	font-weight: 500;
+}
+.copy-right p{
+	margin-bottom: 0;
+}
+
+.copy-right .coding{
+	font-size: 14px;
+}
